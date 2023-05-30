@@ -29,8 +29,8 @@ x_test = tf.keras.utils.normalize(x_test, axis=1)
 # model.add(tf.keras.layers.Flatten(input_shape=(28, 28)))
 
 # # Add dense layers, basic fully connected layers. Relu => f(x) = max(0, x)
-# model.add(tf.keras.layers.Dense(512, activation='relu'))  # Hidden layer
-# model.add(tf.keras.layers.Dense(256, activation='tanh'))  # Hidden layer
+# model.add(tf.keras.layers.Dense(128, activation='relu'))  # Hidden layer
+
 # model.add(tf.keras.layers.Dense(128, activation='relu'))  # Hidden layer
 
 # model.add(tf.keras.layers.Dense(10, activation='softmax'))  # Output layer => 0, 1, ..., 9 for digits. Softmax ensures all neurons add up to 1 (AKA confidence)
@@ -42,7 +42,7 @@ x_test = tf.keras.utils.normalize(x_test, axis=1)
 # model.compile(optimizer='adam', loss='sparse_categorical_crossentropy', metrics=['accuracy'])
 
 # # Train the model
-# model.fit(x_train, y_train, epochs=4)
+# model.fit(x_train, y_train, epochs=40)
 
 # # Save the model when it's done
 # model.save('handwritten.model')
