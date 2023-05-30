@@ -15,7 +15,7 @@ The MNIST dataset is used for training and testing the model. It consists of a l
 3. The neural network's prediction for the digit will be printed in the terminal. 
 
 # Adding your own digits
-1. Create a PNG file of size 28x28 pixels representing the handwritten digit you want to add.
+1. Create a PNG file of size 28x28 pixels representing the handwritten digit you want to add. You can do this by scanning a paper or using microsoft paint, and then using an online tool such as [28x28 resizer](https://www.imageresizeonline.com/convert-image-to-28x28-pixels.php) to make sure the image is the correct size.  Ensure that the image format is PNG and follow the guidelines mentioned below.
 2. Save the PNG file with the filename format "digit[num].png", where [num] is the next number after the existing digits. For example, if the last digit file is "digit9.png", name your file "digit10.png" for the next digit.
 3. Copy the PNG file into the "handwriten_numbers" folder in the project directory.
 4. Run the project
