@@ -6,7 +6,7 @@ This project uses a neural network in order to recognise handwritten digits (fro
 The MNIST dataset is used for training and testing the model. It consists of a large number of handwritten digits from 0 to 9, along with their corresponding labels. The dataset is automatically downloaded and split into training and test data when running the code.
 
 # Installation
-1. Clone the repository: `git clone git clone https://github.com/kmousaa/Digit-Recogniser-Neural-Network.git`
+1. Clone the repository: `git clone https://github.com/kmousaa/Digit-Recogniser-Neural-Network.git`
 2. Install the required dependencies: `pip install tensorflow opencv-python numpy matplotlib`
 
 # Running
