@@ -1,7 +1,7 @@
 # Digit-Recogniser-Neural-Network
 [![Generic badge](https://img.shields.io/badge/language-python-orange.svg)](https://shields.io/)
-[![Generic badge](https://img.shields.io/badge/completion-complete-green.svg)](https://shields.io/)
 [![GitLab last commit](https://img.shields.io/github/last-commit/kmousaa/Digit-Recogniser-Neural-Network)](https://img.shields.io/github/last-commit/kmousaa/Digit-Recogniser-Neural-Network)
+[![Generic badge](https://img.shields.io/badge/completion-complete-blue.svg)](https://shields.io/)
 
 
 This project uses a neural network in order to recognise handwritten digits (from 0 - 9)
